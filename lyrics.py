@@ -103,6 +103,7 @@ def remove_metadata(text):
     text = re.sub("Video.*", "", text, flags=re.I)
     text = re.sub("Director.*", "", text, flags=re.I)
     text = re.sub("Editor.*", "", text, flags=re.I)
+    text = re.sub("Production.*", "", text, flags=re.I)
     text = re.sub("Phwi phwi phwi Bodo Melody song is sung by Nikita Boro and written by Ibson Lal Baruah", "", text, flags=re.I)
     return text
 
