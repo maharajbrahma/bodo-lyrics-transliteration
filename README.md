@@ -2,7 +2,7 @@
 
 Transliteration of Bodo lyrics from Roman to Devanagari script.
 
-**Usage*
+**Usage**
 
 ```python
 pip install -r requirements.txt
