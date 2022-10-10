@@ -1,4 +1,3 @@
-from lib2to3.pgen2 import token
 from ai4bharat.transliteration import XlitEngine
 from indicnlp.tokenize import indic_tokenize
 import pandas as pd
